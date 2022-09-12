@@ -1,31 +1,57 @@
-# Project Title
+# CUSTOMER SEGMENTATION
 
-Simple overview of use/purpose.
+Customer segmentation using unsupervised clustering (Agglomerative Clustering)
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Implementing unsupervised clustering which is agglomerative clustering. Customer segmentation is the practice of separating customers into groups that reflect similarities among customers in each cluster. I will divide customers into segments to optimize the significance of each customer to the business. To modify products according to distinct needs and behaviors of the customer. It also helps the business to cater to the concerns of different types of customers.
 
-## Getting Started
+## Table of contents
 
-### Dependencies
+* 1. IMPORTING LIBRARIES
+* 2. LOADING DATA
+* 3. DATA CLEANING
+* 4. DATA PREPROCESSING
+* 5. DIMENSIONALITY REDUCTION
+* 6. CLUSTERING
+* 7. EVALUATING MODELS
+* 8. PROFILING
+* 9. CONCLUSION
+* 10. END
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+## Conclusion
 
-### Installing
+### There are 4 cluster / group:
+* group 0 : high spending & average income
+* group 1 : low spending & average income
+* group 2 : low spending & low income
+* group 3 : high spending & high income
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+### Profiling the 4 groups:
 
-### Executing program
+__Abouts cluster number: 0__
+* definitely a parent
+* max have 3 members in the family size, and min have 2
+* most have teenager at home
+* relatively older
+* high spending and average income
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+__Abouts cluster number: 1__
+* definitely a parent
+* definitely have kids
+* max have 5 member  in the family size, and min have 3
+* relatively older
+* low spending and average income
 
-## Help
+__Abouts cluster number: 2__
+* mostly a parent
+* have subset of not a parent
+* have 3 members in the family size, and min have 1
+* range of age wery wide, between 20 - 80 year old
+* low spending & low income
 
-Any advise for common problems or issues.
+__About cluster number: 3__
+* definetily not a parent
+* max have 2 member in the family size, and min have 1
+* range of age wery wide, between 20 - 80 year old
+* high spending and high income
