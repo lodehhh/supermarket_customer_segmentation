@@ -21,13 +21,13 @@ Implementing unsupervised clustering which is agglomerative clustering. Customer
 
 ## Conclusion
 
-### There are 4 cluster / group:
-* group 0 : high spending & average income
-* group 1 : low spending & average income
-* group 2 : low spending & low income
-* group 3 : high spending & high income
+### There are 4 cluster:
+* cluster 0 : high spending & average income
+* cluster 1 : low spending & average income
+* cluster 2 : low spending & low income
+* cluster 3 : high spending & high income
 
-### Profiling the 4 groups:
+### Profiling the 4 clusters:
 
 __Abouts cluster number: 0__
 * definitely a parent
@@ -55,3 +55,10 @@ __About cluster number: 3__
 * max have 2 member in the family size, and min have 1
 * range of age wery wide, between 20 - 80 year old
 * high spending and high income
+
+### Another conclusions
+* cluster 3 is the biggest set of customers closely followed by cluster 0
+* Campaign did not work very well. Very few participants overall in promotions campaign.
+* Perhaps better-targeted and well-planned campaigns are required to boost sales.
+* Unlike campaigns, the deals offered did well. It has best outcome with cluster 1 and cluster 0.
+* However, our star customers cluster 3 are not much into the deals
